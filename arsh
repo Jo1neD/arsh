@@ -76,17 +76,8 @@ mainmenu(){
 
 chooselanguage(){
   options=()
-  options+=("Dutch" "(By Anon)")
   options+=("English" "(By Anon)")
-  options+=("French" "(By Anon)")
-  options+=("German" "(By Anon)")
-  options+=("Italian" "(By Anon)")
-  options+=("Hungarian" "(By Anon)")
-  options+=("Polish" "(By Anon)")
-  options+=("Portuguese" "(By Anon)")
-  options+=("Russian" "(By Anon)")
   options+=("Spanish" "(By Anon)")
-  options+=("Turkish" "(By Anon)")
   sel=$(whiptail --backtitle "${apptitle}" --title "${txtlanguage}" --menu "" 0 0 0 \
     "${options[@]}" \
     3>&1 1>&2 2>&3)
